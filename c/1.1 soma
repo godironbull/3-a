@@ -1,0 +1,16 @@
+// soma de dois numeros
+#include <stdio.h>
+
+int main() {
+
+    int a,b,soma;
+    printf("digite um numero para fazer sua soma");
+    scanf("%i", &a);
+    printf("digite outro numero");
+    scanf("%i", &b);
+    soma = a+b;
+    printf("A soma e %i", soma);
+    
+
+    return 0;
+}
